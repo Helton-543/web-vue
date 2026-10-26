@@ -1,4 +1,3 @@
-
 {
   "compilerOptions": {
     "target": "esnext",
@@ -11,20 +10,13 @@
     "skipLibCheck": true,
     "resolveJsonModule": true,
     "esModuleInterop": true,
-    "outDir":"./",
+    "outDir": "./",
     "lib": ["esnext", "dom"],
-    "baseUrl": "./",
     "paths": {
-      "@": ["src"],
-      "@/*": ["src/*"],
+      "@": ["./src"],
+      "@/*": ["./src/*"]
     }
   },
-  "include": [
-    "src/**/*.ts",
-    "src/**/*.d.ts",
-    "src/**/*.tsx",
-    "src/**/*.vue",
-    "*.ts"
-  ],
-  "references": [{ "path": "./tsconfig.config.json" }],
+  "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue", "*.ts"],
+  "references": [{ "path": "./tsconfig.config.json" }]
 }

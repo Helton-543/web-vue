@@ -1,0 +1,21 @@
+{
+  "channels": [
+    {
+      "key": "wechat",
+      "label": "",
+      "image": "wechat.png",
+      "link": ""
+    },
+    {
+      "key": "alipay",
+      "label": "",
+      "image": "alipay.png",
+      "link": ""
+    }
+  ],
+  "overseas": {
+    "label": "",
+    "hint": "",
+    "link": ""
+  }
+}
